@@ -5,7 +5,7 @@ import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import MyWork from "./components/MyWork/MyWork";
 import Navbar from "./components/Navbar/Navbar";
-import Services from "./components/Services/Services";
+import Skills from "./components/Skills/Skills";
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-      <Services />
+      <Skills />
       <MyWork />
       <Contact />
       <Footer />
