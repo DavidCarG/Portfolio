@@ -1,20 +1,21 @@
 import React from "react";
 import "./Hero.css";
-import profile_img from "../../assets/profile_img.svg";
+import profile_img from "../../assets/profile_img.png";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
   return (
     <div id="home" className="hero">
-      <img src={profile_img} alt="" />
+      <img id="profile-img" src={profile_img} alt="" />
       <h1>
-        <span>Lorem ipsum</span> dolor sit amet consectetur adipisicing
+        <span>I'm David Cárdenas</span>
+        <br />
+        Web developer based on Coahuila, México
       </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic eligendi
-        necessitatibus quam asperiores facere cumque dolor ea beatae,
-        repudiandae ex odio mollitia, vel reprehenderit animi. Quasi accusantium
-        iste praesentium libero.
+        I'm a passionate web development student, turning ideas into interactive
+        experiences. I'm always eager to learn and create beautiful,
+        user-friendly websites.
       </p>
       <div className="hero-action">
         <div className="hero-connect">
