@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/profile_img.svg";
+import profile_img from "../../assets/profile_img.png";
 
 const About = () => {
   return (
@@ -12,26 +12,28 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={profile_img} alt="" />
+          <img id="profile-img" src={profile_img} alt="" />
         </div>
         <div className="about-right">
           <div className="about-para">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              et corrupti optio deleniti alias id perferendis esse nobis. Sunt,
-              tempore. Odit sint debitis praesentium eveniet, odio nisi ex
-              quisquam a?
+              I'm a driven web development student with a strong foundation in
+              front-end technologies. I'm particularly skilled in building
+              dynamic and interactive user interfaces using React.js and
+              crafting clean, responsive styles with CSS and Tailwind CSS.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-              suscipit sequi maiores aut doloremque, ex ut minima ea doloribus.
-              Magni illum beatae est tempore! Eum nemo tempore beatae tenetur
-              possimus.
+              My passion lies in creating user-centric experiences, and I
+              leverage my knowledge of Javascript to bring those experiences to
+              life. Currently, I'm expanding my skillset by learning TypeScript
+              for a more robust development environment. To complement my
+              front-end capabilities, I'm delving into backend development with
+              MongoDB and exploring its potential for data-driven applications.
             </p>
           </div>
           <div className="about-skills">
             <div className="about-skill">
-              <p>HTML & CSS</p>
+              <p>TailwindCSS</p>
               <hr style={{ width: "50%" }} />
             </div>
             <div className="about-skill">
@@ -51,18 +53,18 @@ const About = () => {
       </div>
       <div className="about-achievements">
         <div className="about-achievement">
-          <h1>10+</h1>
-          <p>Years of experience</p>
+          <h1>6+</h1>
+          <p>Months of experience</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>50+</h1>
+          <h1>9+</h1>
           <p>Projects completed</p>
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>100+</h1>
-          <p>Happy clients</p>
+          <h1>10+</h1>
+          <p>Completed courses</p>
         </div>
       </div>
     </div>
