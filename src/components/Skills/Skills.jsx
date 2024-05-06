@@ -5,7 +5,7 @@ import Skills_data from "../../assets/skills_data";
 
 const Skills = () => {
   return (
-    <div id="services" className="services">
+    <div id="services" className="services bg-lime-100">
       <div className="services-title">
         <h1>Other skills</h1>
         <img src={theme_pattern} alt="" />
