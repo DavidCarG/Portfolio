@@ -1,10 +1,19 @@
+:root {
+  --light-green: #f0fff4;
+  --dark-green: #22543d;
+  --gradient-start: #48bb78;
+  --gradient-end: #2f855a;
+}
+
 .about {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin: 80px 170px;
+  margin: 0px 170px;
+  padding: 80px 0px;
+  color: var(--dark-green);
 }
 
 .about-title {
@@ -68,7 +77,11 @@
   width: 50%;
   height: 8px;
   border-radius: 50px;
-  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  background: linear-gradient(
+    264deg,
+    var(--gradient-start) -5.09%,
+    var(--gradient-end) 106.28%
+  );
 }
 
 .about-achievements {
@@ -89,7 +102,11 @@
 .about-achievement h1 {
   font-size: 60px;
   font-weight: 700;
-  background: linear-gradient(270deg, #df8908 50.41%, #b415ff 90.25%);
+  background: linear-gradient(
+    270deg,
+    var(--gradient-start) 50.41%,
+    var(--gradient-end) 90.25%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -110,10 +127,19 @@
   transition: all 0.5s;
 }
 
+.about-achievements hr {
+  border: none;
+  border-left: 8px solid var(--dark-green);
+  border-radius: 75px;
+  height: 150px;
+  margin: 0 50px;
+}
+
 @media (max-width: 768px) {
   .about {
     gap: 80px;
-    margin: 50px 70px;
+    margin: 0px 70px;
+    padding: 50px 0px;
     align-items: start;
   }
 
