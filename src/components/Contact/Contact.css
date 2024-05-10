@@ -1,3 +1,10 @@
+:root {
+  --light-green: #f0fff4;
+  --dark-green: #22543d;
+  --gradient-start: #48bb78;
+  --gradient-end: #2f855a;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
