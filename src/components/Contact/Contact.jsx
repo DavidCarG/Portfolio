@@ -10,7 +10,7 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "my-access-key");
+    formData.append("access_key", process.env.REACT_APP_MAIL_ACCESS_KEY);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -31,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="contact">
+    <div id="contact" className="contact bg-lime-100">
       <div className="contact-title">
         <h1>Get in touch</h1>
         <img src={theme_pattern} alt="" />
