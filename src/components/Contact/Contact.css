@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin: 80px 170px;
+  margin: 0px;
+  padding: 80px 170px;
 }
 
 .contact-title {
@@ -15,6 +16,14 @@
   padding: 0px 30px;
   font-size: 80px;
   font-weight: 600;
+  background: linear-gradient(
+    270deg,
+    var(--gradient-start) 50.41%,
+    var(--gradient-end) 90.25%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .contact-title img {
@@ -38,15 +47,12 @@
 .contact-left h1 {
   font-size: 80px;
   font-weight: 700;
-  background: linear-gradient(270deg, #df8908 80%, #b415ff 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--meta-blue);
 }
 
 .contact-left p {
   max-width: 550px;
-  color: #d8d8d8;
+  color: black;
   font-size: 20px;
   line-height: 35px;
 }
@@ -73,7 +79,7 @@
 }
 
 .contact-right label {
-  color: #d8d8d8;
+  color: black;
   font-size: 22px;
   font-weight: 500;
 }
@@ -84,8 +90,8 @@
   height: 78px;
   padding-left: 20px;
   border-radius: 4px;
-  background: #32323c;
-  color: #a0a0a0;
+  background: rgb(226 232 240);
+  color: var(--meta-gray);
   font-family: Outfit;
   font-size: 20px;
 }
@@ -95,8 +101,8 @@
   border: none;
   padding: 25px;
   border-radius: 4px;
-  background: #32323c;
-  color: #a0a0a0;
+  background: rgb(226 232 240);
+  color: var(--meta-gray);
   font-family: Outfit;
   font-size: 20px;
 }
@@ -105,7 +111,11 @@
   border: none;
   color: white;
   border-radius: 50px;
-  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  background: linear-gradient(
+    264deg,
+    var(--gradient-start) 10%,
+    var(--gradient-end) 100%
+  );
   font-size: 22px;
   padding: 20px 60px;
   margin-bottom: 50px;

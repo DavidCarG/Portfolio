@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: center;
   gap: 80px;
-  margin: 80px 170px;
+  margin: 0px 170px;
+  padding: 80px 0px;
 }
 
 .about-title {
@@ -15,6 +16,14 @@
   padding: 0px 30px;
   font-size: 80px;
   font-weight: 600;
+  background: linear-gradient(
+    270deg,
+    var(--gradient-end) 10%,
+    var(--gradient-start) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .about-title img {
@@ -41,6 +50,7 @@
   gap: 20px;
   font-size: 24px;
   font-weight: 500;
+  color: black;
 }
 
 .about-skills {
@@ -60,6 +70,7 @@
   min-width: 150px;
   font-size: 24px;
   font-weight: 500;
+  color: black;
 }
 
 .about-skill hr {
@@ -68,7 +79,11 @@
   width: 50%;
   height: 8px;
   border-radius: 50px;
-  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  background: linear-gradient(
+    264deg,
+    var(--gradient-start) -5.09%,
+    var(--gradient-end) 106.28%
+  );
 }
 
 .about-achievements {
@@ -89,7 +104,11 @@
 .about-achievement h1 {
   font-size: 60px;
   font-weight: 700;
-  background: linear-gradient(270deg, #df8908 50.41%, #b415ff 90.25%);
+  background: linear-gradient(
+    270deg,
+    var(--gradient-start) 50.41%,
+    var(--gradient-end) 90.25%
+  );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -98,6 +117,7 @@
 .about-achievement p {
   font-size: 22px;
   font-weight: 500;
+  color: var(--gradient-end);
 }
 
 .about-skill:hover {
@@ -110,10 +130,19 @@
   transition: all 0.5s;
 }
 
+.about-achievements hr {
+  border: none;
+  border-left: 8px solid var(--meta-blue);
+  border-radius: 75px;
+  height: 150px;
+  margin: 0 50px;
+}
+
 @media (max-width: 768px) {
   .about {
     gap: 80px;
-    margin: 50px 70px;
+    margin: 0px 70px;
+    padding: 50px 0px;
     align-items: start;
   }
 
