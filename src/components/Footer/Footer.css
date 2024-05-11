@@ -1,8 +1,17 @@
+#logo {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
 .footer {
-  margin: 50px 170px;
+  margin: 0px;
+  padding: 50px 170px;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  color: white;
+  background: var(--meta-dark-gray);
 }
 
 .footer-top {
@@ -43,7 +52,11 @@
   font-size: 20px;
   padding: 22px 50px;
   border-radius: 50px;
-  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  background: linear-gradient(
+    264deg,
+    var(--gradient-start) 10%,
+    var(--gradient-end) 100%
+  );
   cursor: pointer;
   transition: all 0.3s;
 }
