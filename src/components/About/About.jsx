@@ -5,7 +5,7 @@ import profile_img from "../../assets/profile_img.png";
 
 const About = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-slate-200">
       <div id="about" className="about">
         <div className="about-title">
           <h1>About me</h1>

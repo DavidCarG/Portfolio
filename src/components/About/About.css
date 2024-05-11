@@ -1,10 +1,3 @@
-:root {
-  --light-green: #f0fff4;
-  --dark-green: #22543d;
-  --gradient-start: #48bb78;
-  --gradient-end: #2f855a;
-}
-
 .about {
   display: flex;
   flex-direction: column;
@@ -13,7 +6,6 @@
   gap: 80px;
   margin: 0px 170px;
   padding: 80px 0px;
-  color: var(--dark-green);
 }
 
 .about-title {
@@ -24,6 +16,14 @@
   padding: 0px 30px;
   font-size: 80px;
   font-weight: 600;
+  background: linear-gradient(
+    270deg,
+    var(--gradient-end) 10%,
+    var(--gradient-start) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .about-title img {
@@ -50,6 +50,7 @@
   gap: 20px;
   font-size: 24px;
   font-weight: 500;
+  color: black;
 }
 
 .about-skills {
@@ -69,6 +70,7 @@
   min-width: 150px;
   font-size: 24px;
   font-weight: 500;
+  color: black;
 }
 
 .about-skill hr {
@@ -115,6 +117,7 @@
 .about-achievement p {
   font-size: 22px;
   font-weight: 500;
+  color: var(--gradient-end);
 }
 
 .about-skill:hover {
@@ -129,7 +132,7 @@
 
 .about-achievements hr {
   border: none;
-  border-left: 8px solid var(--dark-green);
+  border-left: 8px solid var(--meta-blue);
   border-radius: 75px;
   height: 150px;
   margin: 0 50px;
