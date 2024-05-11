@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./MyWork.css";
-import theme_pattern from "../../assets/theme_pattern.svg";
-import mywork_data from "../../assets/mywork_data";
 import arrow_icon from "../../assets/arrow_icon.svg";
 
 const MyWork = () => {
@@ -15,9 +13,9 @@ const MyWork = () => {
           "BellPepperDisease",
           "FitnessClass",
           "PyTacos",
+          "Audyssey",
           "Calista",
-          "Etchy",
-          "Landing-Page",
+          "Passkeeper",
         ];
         const filteredData = data.filter((repo) =>
           repoNames.includes(repo.name)
