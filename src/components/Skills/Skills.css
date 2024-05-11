@@ -1,10 +1,3 @@
-:root {
-  --light-green: #f0fff4;
-  --dark-green: #22543d;
-  --gradient-start: #48bb78;
-  --gradient-end: #2f855a;
-}
-
 .services {
   display: flex;
   flex-direction: column;
@@ -23,6 +16,14 @@
   padding: 0px 30px;
   font-size: 80px;
   font-weight: 600;
+  background: linear-gradient(
+    270deg,
+    var(--gradient-start) 50.41%,
+    var(--gradient-end) 90.25%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .services-title img {
@@ -39,10 +40,9 @@
   gap: 20px;
   padding: 60px;
   border-radius: 10px;
-  border: 3px solid var(--dark-green);
+  border: 3px solid var(--gradient-end);
   transition: all 0.4s;
   cursor: pointer;
-  background-color: var(--light-green);
 }
 
 .services-container {
@@ -55,6 +55,7 @@
 .services-format h3 {
   font-size: 28px;
   font-weight: 600;
+  color: var(--gradient-end);
 }
 
 .services-format h2 {
@@ -70,7 +71,7 @@
 }
 
 .services-format p {
-  color: var(--dark-green);
+  color: black;
   font-size: 24px;
   line-height: 40px;
   max-width: 300px;
@@ -106,7 +107,7 @@
   background: linear-gradient(
     90deg,
     white 0%,
-    #beffda 60%,
+    #78bdff 60%,
     white 70%,
     white 100%
   );
