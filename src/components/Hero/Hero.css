@@ -1,17 +1,8 @@
-:root {
-  --light-green: #f0fff4;
-  --dark-green: #22543d;
-  --gradient-start: #48bb78;
-  --gradient-end: #2f855a;
-}
-
 .hero {
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 35px;
-  /* background-color: var(--light-green); */
-  color: var(--dark-green);
 }
 
 .hero img {
@@ -23,6 +14,7 @@
   width: 70%;
   font-size: 90px;
   font-weight: 600;
+  color: var(--meta-blue);
 }
 
 .hero h1 span {
@@ -41,6 +33,7 @@
   font-size: 24px;
   text-align: center;
   line-height: 40px;
+  color: black;
 }
 
 .hero-action {
@@ -66,7 +59,8 @@
 .hero-resume {
   padding: 25px 75px;
   border-radius: 50px;
-  border: 2px solid var(--dark-green);
+  border: 2px solid var(--meta-dark-blue);
+  color: var(--meta-dark-blue);
   cursor: pointer;
 }
 
