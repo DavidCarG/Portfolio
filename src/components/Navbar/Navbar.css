@@ -1,3 +1,9 @@
+#logo {
+  width: 100px;
+  height: 30px;
+  padding: 0px;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -16,7 +22,11 @@
 .nav-connect {
   padding: 20px 40px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.6%);
+  background: linear-gradient(
+    264deg,
+    var(--gradient-start) 10%,
+    var(--gradient-end) 100%
+  );
   font-size: 22px;
   cursor: pointer;
   transition: 0.5s;
