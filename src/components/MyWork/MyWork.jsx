@@ -27,7 +27,7 @@ const MyWork = () => {
   }, []);
 
   return (
-    <div id="work" className="mywork bg-white">
+    <div id="work" className="mywork bg-slate-200">
       <div className="mywork-title">
         <h1>My latest work</h1>
       </div>
