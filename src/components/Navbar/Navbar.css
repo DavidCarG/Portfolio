@@ -22,6 +22,7 @@
 .nav-connect {
   padding: 20px 40px;
   border-radius: 50px;
+  color: white;
   background: linear-gradient(
     264deg,
     var(--gradient-start) 10%,
@@ -90,7 +91,7 @@
     align-items: start;
     top: 0;
     gap: 30px;
-    background-color: #1f0016;
+    background-color: var(--meta-dark-gray);
     width: 350px;
     height: 100%;
     z-index: 2;

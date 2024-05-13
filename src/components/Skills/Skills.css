@@ -42,7 +42,6 @@
   border-radius: 10px;
   border: 3px solid var(--gradient-end);
   transition: all 0.4s;
-  cursor: pointer;
 }
 
 .services-container {
@@ -120,7 +119,7 @@
   .services {
     align-items: start;
     gap: 70px;
-    margin: 20px 70px;
+    padding: 20px 40px;
   }
 
   .services-title h1 {
@@ -138,7 +137,22 @@
     padding: 32px;
   }
 
+  .services-format:hover {
+    border: 3px solid var(--gradient-end);
+    background-image: linear-gradient(
+      45deg,
+      var(--gradient-start),
+      var(--gradient-end)
+    );
+    transform: scale(1);
+    transition: all 0.4s;
+  }
+
   .services-format h2 {
+    font-size: 28px;
+  }
+
+  .services-format:hover h2 {
     font-size: 28px;
   }
 
@@ -154,6 +168,5 @@
 
   .services-container {
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
   }
 }
