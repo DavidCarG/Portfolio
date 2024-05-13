@@ -38,11 +38,16 @@ const MyWork = () => {
           </div>
         ))}
       </div>
-
-      <div className="mywork-showmore">
-        <p>Show More</p>
-        <img src={arrow_icon} alt="" />
-      </div>
+      <a
+        href="https://github.com/DavidCarG"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className="mywork-showmore">
+          Show more
+          <img src={arrow_icon} alt="" />
+        </div>
+      </a>
     </div>
   );
 };
