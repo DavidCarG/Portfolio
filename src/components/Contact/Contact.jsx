@@ -40,10 +40,8 @@ const Contact = () => {
         <div className="contact-left">
           <h1>Let's talk</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt nam
-            assumenda, quae odio deserunt quasi non ipsam ab dicta! Corrupti
-            maxime quidem quis, assumenda eaque error amet consectetur ullam
-            dolorem.
+            Always up for a new challenge! Feel free to reach out with any
+            questions or project ideas.{" "}
           </p>
           <div className="contact-details">
             <div className="contact-detail">
