@@ -90,7 +90,7 @@
 @media (max-width: 768px) {
   .mywork {
     gap: 50px;
-    margin: 50px 70px;
+    padding: 50px 70px;
     align-items: start;
   }
 
@@ -101,7 +101,7 @@
   }
 
   .mywork-container {
-    grid-template-columns: fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
   }
 
