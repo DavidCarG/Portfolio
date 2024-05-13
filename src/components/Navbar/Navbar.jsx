@@ -91,9 +91,13 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-connect">
-        <AnchorLink className="anchor-link" offset={50} href="#contact">
+        <a
+          href="https://www.linkedin.com/in/david-cardenas-gonzalez-63a927254/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Connect With Me
-        </AnchorLink>
+        </a>
       </div>
     </div>
   );
