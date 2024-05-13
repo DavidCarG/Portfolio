@@ -84,7 +84,7 @@
 
 @media (max-width: 768px) {
   .footer {
-    margin: 50px 70px;
+    padding: 50px 70px;
   }
 
   .footer-top {
@@ -96,5 +96,10 @@
     display: flex;
     flex-direction: column-reverse;
     margin-bottom: 50px;
+  }
+
+  .footer-top-right {
+    flex-direction: column;
+    gap: 20px;
   }
 }
