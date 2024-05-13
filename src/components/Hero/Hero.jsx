@@ -23,7 +23,15 @@ const Hero = () => {
             Connect with me
           </AnchorLink>
         </div>
-        <div className="hero-resume">My resume</div>
+        <div className="hero-resume">
+          <a
+            href="https://drive.google.com/file/d/1TnOIJgliNxnjaDStp-U32sZIJ79OiM06/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My resume
+          </a>
+        </div>
       </div>
     </div>
   );
